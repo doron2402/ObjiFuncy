@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/dsegal/.nvm/v0.10.21/bin/npm', 'i' ]
+2 info using npm@1.3.26
+3 info using node@v0.10.21
+4 warn package.json new@0.0.0 No description
+5 warn package.json new@0.0.0 No repository field.
+6 warn package.json new@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/dsegal/Webdev/ObjiFuncy/example', [ 'objifuncy' ] ]
+9 info preinstall new@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'objifuncy@0.0.22', null ]
+12 verbose cache add name=undefined spec="objifuncy@0.0.22" args=["objifuncy@0.0.22",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'objifuncy@0.0.22',
+13 verbose parsed url   path: 'objifuncy@0.0.22',
+13 verbose parsed url   href: 'objifuncy@0.0.22' }
+14 verbose cache add name="objifuncy" spec="0.0.22" args=["objifuncy","0.0.22"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '0.0.22',
+15 verbose parsed url   path: '0.0.22',
+15 verbose parsed url   href: '0.0.22' }
+16 verbose addNamed [ 'objifuncy', '0.0.22' ]
+17 verbose addNamed [ '0.0.22', '0.0.22' ]
+18 silly lockFile 1eacde4d-objifuncy-0-0-22 objifuncy@0.0.22
+19 verbose lock objifuncy@0.0.22 /Users/dsegal/.npm/1eacde4d-objifuncy-0-0-22.lock
+20 verbose url raw objifuncy/0.0.22
+21 verbose url resolving [ 'https://registry.npmjs.org/', './objifuncy/0.0.22' ]
+22 verbose url resolved https://registry.npmjs.org/objifuncy/0.0.22
+23 info trying registry request attempt 1 at 13:07:41
+24 http GET https://registry.npmjs.org/objifuncy/0.0.22
+25 http 404 https://registry.npmjs.org/objifuncy/0.0.22
+26 silly registry.get cb [ 404,
+26 silly registry.get   { date: 'Fri, 14 Feb 2014 21:07:41 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+26 silly registry.get     etag: '"25CK51OSF87GEVJ3Y367HFRPD"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '37',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-sv62-SJC3',
+26 silly registry.get     'x-cache': 'MISS, MISS',
+26 silly registry.get     'x-cache-hits': '0, 0',
+26 silly registry.get     'x-timer': 'S1392412061.884300947,VS0,VS34,VE51,VE90',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly lockFile 1eacde4d-objifuncy-0-0-22 objifuncy@0.0.22
+28 silly lockFile 1eacde4d-objifuncy-0-0-22 objifuncy@0.0.22
+29 error Error: version not found: 0.0.22 : objifuncy/0.0.22
+29 error     at RegClient.<anonymous> (/Users/dsegal/.nvm/v0.10.21/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:276:14)
+29 error     at Request.self.callback (/Users/dsegal/.nvm/v0.10.21/lib/node_modules/npm/node_modules/request/request.js:123:22)
+29 error     at Request.EventEmitter.emit (events.js:98:17)
+29 error     at Request.<anonymous> (/Users/dsegal/.nvm/v0.10.21/lib/node_modules/npm/node_modules/request/request.js:893:14)
+29 error     at Request.EventEmitter.emit (events.js:117:20)
+29 error     at IncomingMessage.<anonymous> (/Users/dsegal/.nvm/v0.10.21/lib/node_modules/npm/node_modules/request/request.js:844:12)
+29 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+29 error     at _stream_readable.js:920:16
+29 error     at process._tickCallback (node.js:415:13)
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/isaacs/npm/issues>
+31 error System Darwin 13.0.2
+32 error command "node" "/Users/dsegal/.nvm/v0.10.21/bin/npm" "i"
+33 error cwd /Users/dsegal/Webdev/ObjiFuncy/example
+34 error node -v v0.10.21
+35 error npm -v 1.3.26
+36 verbose exit [ 1, true ]
