@@ -1,0 +1,28 @@
+{
+  "name": "objifuncy",
+  "version": "0.0.2",
+  "description": "A bunch of object function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/ObjiFuncy.git"
+  },
+  "keywords": [
+    "Object",
+    "function",
+    "random",
+    "node.js"
+  ],
+  "author": {
+    "name":"Doron Segal", 
+    "url":"http://segaldoron.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doron2402/ObjiFuncy/issues"
+  },
+  "homepage": "https://github.com/doron2402/ObjiFuncy"
+}
